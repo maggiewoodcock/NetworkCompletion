@@ -13,6 +13,10 @@
 		CF945DB62214FC5700F5DFA5 /* NetworkCompletion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF945DB42214FC5700F5DFA5 /* NetworkCompletion.xcdatamodeld */; };
 		CF945DB82214FC5900F5DFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF945DB72214FC5900F5DFA5 /* Assets.xcassets */; };
 		CF945DBB2214FC5900F5DFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF945DB92214FC5900F5DFA5 /* LaunchScreen.storyboard */; };
+		CF945DE6221B1E4900F5DFA5 /* JsonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF945DE5221B1E4900F5DFA5 /* JsonClass.swift */; };
+		CF945DEA221B9B9300F5DFA5 /* RelativeHumidity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF945DE7221B9B9300F5DFA5 /* RelativeHumidity.swift */; };
+		CF945DEB221B9B9300F5DFA5 /* HeatStress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF945DE8221B9B9300F5DFA5 /* HeatStress.swift */; };
+		CF945DEC221B9B9300F5DFA5 /* SingleSin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF945DE9221B9B9300F5DFA5 /* SingleSin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CF945DB72214FC5900F5DFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF945DBA2214FC5900F5DFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF945DBC2214FC5900F5DFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF945DE5221B1E4900F5DFA5 /* JsonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonClass.swift; sourceTree = "<group>"; };
+		CF945DE7221B9B9300F5DFA5 /* RelativeHumidity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativeHumidity.swift; sourceTree = "<group>"; };
+		CF945DE8221B9B9300F5DFA5 /* HeatStress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeatStress.swift; sourceTree = "<group>"; };
+		CF945DE9221B9B9300F5DFA5 /* SingleSin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		CF945DAC2214FC5700F5DFA5 /* NetworkCompletion */ = {
 			isa = PBXGroup;
 			children = (
+				CF945DE8221B9B9300F5DFA5 /* HeatStress.swift */,
+				CF945DE7221B9B9300F5DFA5 /* RelativeHumidity.swift */,
+				CF945DE9221B9B9300F5DFA5 /* SingleSin.swift */,
 				CF945DAD2214FC5700F5DFA5 /* AppDelegate.swift */,
 				CF945DAF2214FC5700F5DFA5 /* ViewController.swift */,
 				CF945DB12214FC5700F5DFA5 /* Main.storyboard */,
@@ -63,6 +74,7 @@
 				CF945DB92214FC5900F5DFA5 /* LaunchScreen.storyboard */,
 				CF945DBC2214FC5900F5DFA5 /* Info.plist */,
 				CF945DB42214FC5700F5DFA5 /* NetworkCompletion.xcdatamodeld */,
+				CF945DE5221B1E4900F5DFA5 /* JsonClass.swift */,
 			);
 			path = NetworkCompletion;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF945DEA221B9B9300F5DFA5 /* RelativeHumidity.swift in Sources */,
+				CF945DEC221B9B9300F5DFA5 /* SingleSin.swift in Sources */,
 				CF945DB02214FC5700F5DFA5 /* ViewController.swift in Sources */,
 				CF945DAE2214FC5700F5DFA5 /* AppDelegate.swift in Sources */,
+				CF945DE6221B1E4900F5DFA5 /* JsonClass.swift in Sources */,
 				CF945DB62214FC5700F5DFA5 /* NetworkCompletion.xcdatamodeld in Sources */,
+				CF945DEB221B9B9300F5DFA5 /* HeatStress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,19 +10,14 @@ import Foundation
 
 class CanopyTemperature {
     
-    
-    func CalculateCTDayTime(meanHourlyTemp: Double, meanHourlyVpd: Double) -> Double {
-        let CTAh = 0.0
-        
-        
-        return CTAh
+    /* Day time */
+    func CalculateCTDayTime(meanHourlyTemp: Double, meanHourlyVpd: Double) -> Double
+    {
+        return 0.53 + meanHourlyTemp - 1.43 * meanHourlyVpd
     }
     
     func CalculateCTNightTime(meanHourlyTemp: Double, meanHourlyVp: Double) -> Double {
-        let CTPh = 0.0
-        
-        
-        return CTPh
+        return (-5.93) + meanHourlyTemp + 1.95 * meanHourlyVp
     }
     
     // Daily Canopy temperature is converted to fahrenheit before calling this function.
